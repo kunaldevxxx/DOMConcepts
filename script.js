@@ -1,4 +1,5 @@
-var a = document.querySelector("h1")
-a.innerHTML="Dev"
-a.style.color="red"
-a.style.backgroundColor="rebeccapurple"
+var bulb = document.querySelector(".bulb")
+var btn = document.querySelector("button")
+btn.addEventListener("click",function(){
+    bulb.style.backgroundColor="yellow"
+})

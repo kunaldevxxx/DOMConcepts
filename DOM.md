@@ -35,9 +35,16 @@ a.style.color="red"
 
 4. Event Listener
 
+eg.
 
-
-
+var a = document.querySelector("h1")
+a.style.color="red"
+a.style.backgroundColor="rebeccapurple"
+a.addEventListener("click",function(){
+    a.innerHTML="main woh nahi jo pehle tha"
+    a.style.color="yellow"
+    a.style.backgroundColor="#000"
+})
 
 
 
