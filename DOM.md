@@ -27,4 +27,23 @@ a.innerHTML="Dev"
 
 3. Changing CSS
 
+always in camel case
+eg.
+var a = document.querySelector("h1")
+a.innerHTML="Dev"
+a.style.color="red"
+
 4. Event Listener
+
+
+
+
+
+
+
+
+
+
+
+
+
