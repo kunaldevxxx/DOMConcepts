@@ -46,6 +46,15 @@ a.addEventListener("click",function(){
     a.style.backgroundColor="#000"
 })
 
+()
+Select all element 
+var h = document.querySelectorAll("h1")
+return nodelist
+var h = document.querySelectorAll("h1")
+console.log(h)
+h.forEach(function(e){
+console.log(e)
+})
 
 
 
